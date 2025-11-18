@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Excellence Advisory - Our Services</title>
+    
+    <style>
+        
+        :root {
+            --primary-color: #0d1a49; 
+            --secondary-color: #ffc72c; 
+            --light-text: #ffffff;
+            --dark-text: #333333;
+            --background-light: #f4f4f4; 
+        }
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background-color: var(--background-light);
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        
+        .main-header {
+            background-color: var(--primary-color); 
+            color: var(--light-text);
+            padding: 10px 0;
+            border-bottom: 5px solid var(--secondary-color); 
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-area .logo-text {
+            font-size: 1.8em;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .slogan {
+            font-size: 0.8em;
+            color: var(--secondary-color); 
+            margin: 0;
+        }
+
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li a {
+            color: var(--light-text);
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        
+        nav ul li a:hover,
+        nav ul li a.active {
+            background-color: rgba(255, 199, 44, 0.2); 
+            color: var(--secondary-color); 
+        }
+
+        
+        .main-footer {
+            background-color: var(--primary-color); 
+            color: var(--light-text);
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+
+        .main-footer a {
+            color: var(--secondary-color); 
+            text-decoration: none;
+        }
+
+        .main-footer a:hover {
+            text-decoration: underline;
+        }
+
+       
+        main .container {
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: var(--primary-color); 
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h3 {
+            color: var(--secondary-color); 
+            border-bottom: 2px solid var(--primary-color); 
+            padding-bottom: 5px;
+            margin-top: 10px;
+        }
+
+        .services-grid {
+        
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .service-card {
+            background-color: white;
+            padding: 25px;
+            border-left: 5px solid var(--secondary-color); 
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+        
+        .service-card p {
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo-area">
+                <span class="logo-text">HIGH EXCELLENCE ADVISORY</span>
+                <p class="slogan">TOGETHER WE ACHIEVE HIGH EXCELLENCE</p>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="universities.html">Study in Malaysia</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+                <h2>Our Comprehensive Services</h2>
+                <p style="text-align: center; margin-bottom: 40px;">Here is how we help our international clients achieve their educational goals in Malaysia, providing support every step of the way.</p>
+            </section>
+
+            <div class="services-grid">
+                
+                <section class="service-card">
+                    <h3>Educational Consultation</h3>
+                    <p>
+                        We guide students in identifying suitable programs and institutions based on their academic history, personal interests, future career goals, and budget. Our advice ensures the right educational match for your success.
+                    </p>
+                </section>
+
+                <section class="service-card">
+                    <h3>Application & Admission Assistance</h3>
+                    <p>
+                        From document preparation and form submission to university coordination, we handle the entire admissions process, ensuring accuracy and compliance with all institutional requirements.
+                    </p>
+                </section>
+
+                <section class="service-card">
+                    <h3>Visa & Immigration Advisory</h3>
+                    <p>
+                        We assist with essential visa requirements, including financial documents, application submission, appointment scheduling, and pre-interview preparation to meet up-to-date immigration guidelines.
+                    </p>
+                </section>
+
+                <section class="service-card">
+                    <h3>Accommodation & Airport Assistance</h3>
+                    <p>
+                        We help students find safe and convenient on-campus or off-campus housing options and arrange reliable airport pickups for a seamless, stress-free arrival in Malaysia.
+                    </p>
+                </section>
+                
+                <section class="service-card">
+                    <h3>Pre-Departure Briefing</h3>
+                    <p>
+                        Our detailed orientation covers Malaysian culture, essential safety tips, budgeting, and campus life to help ease the transition and prepare international students for their new environment.
+                    </p>
+                </section>
+
+                <section class="service-card">
+                    <h3>Continuous Student Support</h3>
+                    <p>
+                        We provide ongoing assistance throughout your study period with matters like visa renewals, academic issues, and general guidance, ensuring your well-being while in Malaysia.
+                    </p>
+                </section>
+
+            </div>
+            
+            <section style="margin-top: 40px; text-align: center;">
+                <p style="font-size: 1.1em;">Ready to start your journey? <a href="contact.html" style="color: var(--secondary-color); font-weight: bold; text-decoration: none;">Contact us today!</a></p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="contact-info">
+                <strong>Contact Us:</strong><br>
+                Phone: +6017 282 7075 | Email: highexcellence@outlook.com
+            </div>
+            <p>&copy; 2025 High Excellence Advisory. All rights reserved. | <a href="contact.html">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>
